@@ -2,6 +2,7 @@ import telebot
 from telebot import types
 import time
 import sqlite3
+# Bot for the festival. In the future, change the text
 
 # name bot: FestivalQuestBot
 bot = telebot.TeleBot('6357823947:AAHxKALq_W8zbSFe13GQSuqvYI25-nMcYYQ')
