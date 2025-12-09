@@ -5,7 +5,7 @@ import sqlite3
 # Bot for the festival. In the future, change the text
 
 # name bot: FestivalQuestBot
-bot = telebot.TeleBot('6357823947:AAHxKALq_W8zbSFe13GQSuqvYI25-nMcYYQ')
+bot = telebot.TeleBot('token')
 
 # info user
 user_data = {}
@@ -170,3 +170,4 @@ def check_answer(message):
 
 
 bot.polling(non_stop=True)
+
