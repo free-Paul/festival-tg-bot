@@ -1,6 +1,6 @@
 import telebot, sqlite3
 # new
-bot = telebot.TeleBot('6578719044:AAF73vlAsE-aDdF7hdhnctTcPs9A1-6LYPI')
+bot = telebot.TeleBot('token')
 
 user_data = {}
 
@@ -62,4 +62,5 @@ def check_answer(message):
             bot.send_message(message.chat.id, 'Такой команды нет.')
 
 bot.polling(non_stop=True)
+
 
